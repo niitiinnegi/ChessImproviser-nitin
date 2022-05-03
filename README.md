@@ -5,7 +5,9 @@
 ![image](https://user-images.githubusercontent.com/49391202/166414187-c109974e-e167-422e-a269-33008da9be69.png)
 
 ## Use a blank chessboard to layout the chess pieces
-![image](https://user-images.githubusercontent.com/49391202/166418054-13608c71-3ac0-464f-a5e4-813c2b7ca6e2.png)
+
+![image](https://user-images.githubusercontent.com/49391202/166418176-152d5a7b-cf56-4369-9016-5e31d03fc968.png)
+
 
 
 ## Try to recall it from your memory
