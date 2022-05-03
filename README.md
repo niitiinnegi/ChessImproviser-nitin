@@ -5,7 +5,8 @@
 ![image](https://user-images.githubusercontent.com/49391202/166414187-c109974e-e167-422e-a269-33008da9be69.png)
 
 ## Take a blank chessboard
-![image](https://user-images.githubusercontent.com/49391202/166414959-348f232e-5b8b-4547-883a-1a1c92560b9a.png)
+![image](https://user-images.githubusercontent.com/49391202/166415429-f6476f05-8e45-4def-b877-034e97f94d20.png)
+
 
 ## Try to recall it from your memory
 ![image](https://user-images.githubusercontent.com/49391202/166414817-7666e1d1-c27a-4e7a-802c-2d77873c708a.png)
