@@ -1,5 +1,8 @@
 # ChessImproviser
   ChessImproviser is a software for learning to recall and practice Chess positions. Chess positions can be better recalled through Story telling methods.
+  
+  ![image](https://user-images.githubusercontent.com/49391202/166425269-e9d864dc-6922-415e-9f31-4d0be500d10e.png)
+
 
 ## Set up a position to study
 ![image](https://user-images.githubusercontent.com/49391202/166414187-c109974e-e167-422e-a269-33008da9be69.png)
