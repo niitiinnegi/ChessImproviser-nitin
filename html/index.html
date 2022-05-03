@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" source=js/test.js>
+
+</script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>chessboardjs Example #3001 - Set Position</title>
+  <base href="../" />
+  <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css" integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU" crossorigin="anonymous">
+  <!--  <link rel="stylesheet" href="css/chessboard-1.0.0.min.css" integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU" crossorigin="anonymous"> -->
+</head>
+<body>
+
+<p><h3><b>A web application to test Memory of a chess player in retaining and recalling chess positions on a chessboard!</b></h3></p>
+
+<!--- Begin Example HTML ------------------------------------------------------>
+<div id="myBoard" style="width: 400px"></div>
+<br>
+<button id="ShowPositionBtn">ShowPosition</button>
+<button id="TestYourMemory">TestYourMemory</button>
+<!--- End Example HTML -------------------------------------------------------->
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<!-- <script src="js/chessboard-1.0.0.min.js" integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD" crossorigin="anonymous"></script>  -->
+<script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js" integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD" crossorigin="anonymous"></script> 
+<script>
+// --- Begin Example JS --------------------------------------------------------
+var board = Chessboard('myBoard')
+
+$('#ShowPositionBtn').on('click', function () {
+  board.position('r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R')
+})
+
+$('#TestYourMemory').on('click', function () { 
+
+location.href="html/index1.html?r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R"; }
+
+ )
+
+$('#setRookCheckmateBtn').on('click', function () {
+  board.position({
+    a4: 'bK',
+    c4: 'wK',
+    a7: 'wR'
+  })
+})
+// --- End Example JS ----------------------------------------------------------
+</script>
+</body>
+</html>
