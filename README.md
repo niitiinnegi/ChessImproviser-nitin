@@ -34,6 +34,12 @@
 
 
 
+## The Goals of the Open-source Software - ChessImproviser is as follows:
+
+a)   Help the Chess player to recall a position and build the position from the player’s Memory.
+b)   Build Thematic chess positions as a database which can be fed as an input for learning to the Chess player.
+c)   While displaying Chess positions from a database or file, do tell a story, so as to create an association with the chess position shown. This story        would be stored as String text or graphics in the database and would be associated with a given Chess position.
+d)   Help any given Chess player to create his own database based on the above points.
 
 ## Requirements:
 
