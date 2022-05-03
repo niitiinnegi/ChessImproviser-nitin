@@ -53,9 +53,8 @@
 
 ## License
 
-[MIT License](LICENSE.md)
+ChessImproviser [MIT License](LICENSE.md)
 
-[jQuery]:https://jquery.com/
-[chessboardjs.com]:http://chessboardjs.com
-[chess.js]:https://github.com/jhlywa/chess.js
-[Example 5000]:http://chessboardjs.com/examples#5000
+chessboard.js: https://github.com/oakmac/chessboardjs (MIT License)
+chess.js: https://github.com/jhlywa/chess.js (BSD 2-Clause "Simplified" License)
+
