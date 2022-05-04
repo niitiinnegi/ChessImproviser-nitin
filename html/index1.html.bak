@@ -15,9 +15,6 @@
 <p>Set <a href="docs.html#config:sparePieces"><code class="js plain">sparePieces</code></a> to <code class="js keyword">true</code> to show spare pieces that can be dropped onto the board.</p>
 
 <!--- Begin Example HTML ------------------------------------------------------>
-
-<!--- This is my proposed change to html file. Abhishek Shrivastava 04-May-2022 Change#1 ------------------------------------------------------>
-
 <div id="myBoard" style="width: 400px"></div>
 <button id="TestBtn">Test Position</button>
 <button id="clearBtn">Clear Board</button>
