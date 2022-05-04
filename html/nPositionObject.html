@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript" source=js/test.js>
+
+</script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>chessboardjs Example #3001 - Set Position</title>
+  <base href="../" />
+  <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css" integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU" crossorigin="anonymous">
+  <!--  <link rel="stylesheet" href="css/chessboard-1.0.0.min.css" integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU" crossorigin="anonymous"> -->
+</head>
+<body>
+
+<p><h3><b>Major problems happens in time trouble while playig such position</b></h3></p>
+
+<!--- Begin Example HTML ------------------------------------------------------>
+<div id="kmyBoard" style="width: 400px"></div>
+<br>
+<!--- End Example HTML -------------------------------------------------------->
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js" integrity="sha384-8Vi8VHwn3vjQ9eUHUxex3JSN/NFqUg3QbPyX8kWyb93+8AC/pPWTzj+nHtbC5bxD" crossorigin="anonymous"></script>
+<script>
+// --- Begin Example JS --------------------------------------------------------
+var board = Chessboard('kmyBoard')
+
+var position = {
+  d6: 'wK',
+  d4: 'wP',
+  e8: 'bK'
+}
+var board = Chessboard('kmyBoard', position)
+
+</script>
+</body>
+</html>
